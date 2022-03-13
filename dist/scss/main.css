@@ -1,0 +1,256 @@
+.heading1 {
+  font-family: 'Sarala', sans-serif;
+  color: #1D242F;
+}
+
+.menu-icon {
+  margin-right: 15px;
+}
+
+.menu-icon div {
+  width: 20px;
+  height: 2px;
+  background-color: black;
+  margin: 3px;
+}
+
+.foot-link tr {
+  font-weight: bold;
+}
+
+.foot-link tr td {
+  padding: 3px  20px;
+  font-size: 15px;
+}
+
+h {
+  margin: 0;
+}
+
+.breadcrumb-item a::before {
+  color: #FF643C;
+  padding: 0 5px;
+}
+
+.first-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.first-nav .menu-opener {
+  float: left;
+  width: 60px;
+  display: block;
+  border: none;
+  background-color: white;
+  padding: 8px 10px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+.first-nav .menu-opener .two {
+  width: 30px;
+}
+
+.first-nav .menu-opener .three {
+  width: 50px;
+}
+
+.first-nav .menu-opener div {
+  height: 3px;
+  background: #0f0f0f;
+  margin: 7px 0px 7px 0px;
+  border-radius: 25px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+.first-nav .menu-opener:hover .nav-links {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  float: bottom;
+}
+
+.first-nav .menu-opener:hover div {
+  width: 60px;
+}
+
+.third-nav {
+  font-size: small;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 29px;
+  border-top: 1px solid grey;
+  padding: 8px 10px;
+  border-bottom: 1px solid grey;
+  color: #FF643C;
+}
+
+.third-nav .subject {
+  color: grey;
+}
+
+.third-nav .new-s {
+  color: black;
+}
+
+.news-moto {
+  padding: 8px 10px;
+  font-size: 28px;
+  margin: 7px 0px 7px 0px;
+  text-transform: uppercase;
+}
+
+.news-logo {
+  padding: 8px 10px;
+  margin: 7px 0px 7px 0px;
+  font-size: 28px;
+  color: #FF643C;
+}
+
+.search-box:hover .search-data {
+  display: inline;
+}
+
+.search-data {
+  display: none;
+}
+
+hr {
+  border-top: 0.5px solid dark grey;
+  margin: 0px;
+}
+
+.second-nav {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+.nav {
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav .meriweather {
+  font-family: 'Merriweather', serif;
+}
+
+.nav li {
+  float: left;
+  margin: 0px;
+  padding-right: 10px;
+}
+
+.nav li a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: #93A0B4;
+}
+
+.nav li:hover a {
+  border-bottom: 2px solid #FF643C;
+  color: black;
+}
+
+.roboto-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.foot-clr {
+  background-color: #E9E9E9;
+}
+
+.clr-sign {
+  background-color: #F1F1F1;
+}
+
+.pdbot {
+  padding: 10px 10px 100px;
+}
+
+.fa-facebook {
+  padding: 0.05em 0.3em;
+}
+
+.circle {
+  border-radius: 50%;
+  margin: 0.1em;
+  font-size: 1.5em;
+}
+
+.foot {
+  background-color: #E9E9E9;
+}
+
+.sign-button {
+  height: 30px;
+  width: 80px;
+  margin-left: 8px;
+}
+
+.signup-form {
+  margin-left: 29%;
+  margin-right: 30%;
+  display: block;
+}
+
+.news-section {
+  margin-left: 30%;
+  margin-right: 30%;
+  display: block;
+}
+
+.news-section .date-now {
+  padding-left: 7px;
+  color: grey;
+  float: left;
+}
+
+.news-section .social {
+  clear: right;
+  position: relative;
+  color: grey;
+  float: right;
+}
+
+.news-section .social a {
+  margin: 1px;
+}
+
+.news-section .small-text {
+  font-size: 15px;
+}
+
+.news-section .big-text {
+  font-size: 24px;
+}
+
+.news-section .medium-text {
+  font-size: 20px;
+}
+
+.bullets li {
+  color: #FF643C;
+  list-style-type: square;
+}
+
+.bullets li span {
+  color: black;
+  font-size: 14px;
+}
+
+.text-orange {
+  color: #FF643C;
+}
+
+.btn-orange {
+  background: #FF643C;
+  color: white;
+  font-size: 11px;
+}
+/*# sourceMappingURL=main.css.map */

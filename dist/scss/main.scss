@@ -1,0 +1,273 @@
+$padding:8px 10px;
+$margin: 7px 0px 7px 0px;
+$main-color:grey;
+$breadcrumb-divider-color: #FF643C;
+
+.heading1
+{
+    font-family: 'Sarala', sans-serif;;
+    color: #1D242F;
+    
+    
+}
+.menu-icon 
+{
+    margin-right: 15px;
+    div{width: 20px;
+        height: 2px;
+        background-color: black;
+        margin: 3px;}
+      
+}
+.foot-link
+{
+    tr
+    {
+        font-weight: bold;
+        // padding:3px; 
+        td
+        {
+            padding:3px  20px ;
+            font-size: 15px;
+        }
+    }
+}
+
+h{margin:0}
+.breadcrumb-item a::before {
+    color: #FF643C;
+    // content: "> ";
+    padding: 0 5px;
+}
+
+.first-nav
+{
+
+    display:flex;
+    .menu-opener {
+        float: left;
+        width: 60px;
+        display: block;
+        border: none;
+        background-color: white;
+        padding: $padding;
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+       
+        .two {
+            width: 30px;
+          }
+          
+          .three {
+            width: 50px;
+          }
+        div {
+            height: 3px;
+            background: rgb(15, 15, 15);
+            margin: $margin;
+            
+            border-radius: 25px;
+            transition: all 0.5s;
+            -webkit-transition: all 0.5s;
+        
+            
+          }  
+          &:hover{
+            .nav-links
+            {
+                display:inline-flex;
+                float:bottom
+            }
+              div{
+            width: 60px;
+        }
+        }
+    }
+    
+      
+      
+}
+.third-nav
+{   font-size: small;
+    display: flex;
+    margin-top: 29px;
+    border-top: 1px solid $main-color;
+    padding: $padding;
+    border-bottom: 1px solid $main-color;
+    color: #FF643C;
+    .subject
+    {
+        color: $main-color;
+    }
+    .new-s
+    {
+        color:black;
+    }
+}
+.news-moto
+    {
+        padding: $padding;
+        font-size: 28px;
+        margin: $margin;
+        text-transform: uppercase;
+        }
+.news-logo{
+    padding: $padding;
+    margin: $margin;
+
+    font-size: 28px;
+    color:#FF643C;
+}
+.search-box
+    {
+        // padding: $padding;
+        // margin: $margin;
+        // position: absolute;
+        // right: 0;
+        &:hover
+        {
+            .search-data
+            {
+                display:inline;
+            }
+        }
+    }
+.search-data
+    {    
+        // border-radius: 25px;
+        display: none;
+    }
+    hr
+    {
+       border-top: .5px solid dark$main-color;
+       margin: 0px;
+    }
+    .second-nav
+    {
+        border-top:1px solid $main-color;
+        border-bottom: 1px solid $main-color;
+    }
+.nav
+{
+    margin: 0px;
+    padding: 0px;
+    .meriweather
+    {
+     font-family: 'Merriweather', serif;
+
+    }
+    li
+    {
+        float:left;
+    margin: 0px;
+
+        padding-right: 10px;
+        a
+        {
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;;
+            font-size: 12px;
+            color: #93A0B4;
+        }
+        &:hover
+        {a{
+            border-bottom: 2px solid #FF643C;
+            color:black;
+        } 
+        }
+    }
+
+
+}
+.roboto-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.foot-clr
+{
+    background-color:#E9E9E9;
+}
+.clr-sign
+{
+    background-color: #F1F1F1;
+}
+.pdbot
+{
+    padding:10px 10px 100px;
+    
+}
+
+.fa-facebook
+{
+    padding: 0.05em 0.3em;
+}
+.circle{
+	border-radius: 50%;
+	margin: 0.1em;
+	font-size: 1.5em;
+	
+	}
+.foot
+{
+    background-color:#E9E9E9;
+}
+.sign-button
+{
+    height: 30px;
+    width:80px;
+    margin-left: 8px;
+}
+.signup-form{margin-left:29%;
+    margin-right:30%;
+    display:block;}
+.news-section
+{
+    margin-left:30%;
+    margin-right:30%;
+    display:block;
+    .date-now
+    {
+        padding-left: 7px;
+        color: $main-color;
+        float:left;
+    }
+    .social
+    {
+        a{margin: 1px;}       
+        clear:right;
+        position: relative;
+        color: $main-color;
+        float:right;
+    }
+.small-text
+{
+    font-size:15px;
+}
+.big-text
+{
+    font-size:24px;
+}
+.medium-text
+{
+    font-size: 20px;
+}
+}
+.bullets
+{
+    li{
+        color:#FF643C;
+        list-style-type: square;
+        span{color:black;
+        font-size: 14px;};
+
+    }
+}
+.text-orange{
+    color:#FF643C;
+}
+.btn-orange
+{
+    background: #FF643C;
+    color: white;
+    font-size: 11px;
+}
